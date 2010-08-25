@@ -332,9 +332,6 @@ def main():
                     dir1 = 0
                 elif event.key in [K_UP,K_DOWN]:
                     dir2 = 0
-        # Override with AI for now
-        dir1 = aiDir(p1,b1,res_y)
-        dir2 = aiDir(p2,b1,res_y)
         
         # Handle paddles at the edge of the board
         p1_top,p1_bottom = p1.getTop(),p1.getBottom()
