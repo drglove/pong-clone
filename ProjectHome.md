@@ -1,0 +1,1 @@
+Trying to emulate Pong in Pygame. Supports 2 players, or 1 player and an AI.
